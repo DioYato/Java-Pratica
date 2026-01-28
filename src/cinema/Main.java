@@ -28,6 +28,6 @@ public class Main {
         // 6) Genero il report finale
         manager.generaReport("report.txt");
 
-        System.out.println("Programma terminato.");
+        System.out.println("Fine");
     }
 }

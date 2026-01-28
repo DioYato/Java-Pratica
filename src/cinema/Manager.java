@@ -63,7 +63,7 @@ public class Manager extends persona {
             pw.println("INCASSO TOTALE CINEMA: " + totale + " euro");
             pw.println();
 
-            // Cassieri ordinati per incasso crescente
+            
             pw.println("CASSIERI ORDINATI PER INCASSO:");
             cassieri.stream()
                     .sorted((a, b) -> Double.compare(a.getIncasso(), b.getIncasso()))
